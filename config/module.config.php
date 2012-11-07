@@ -19,4 +19,11 @@ return array(
         'sup_ver_zf2'       => '2.0.0 - 218 (commit 2a398b4e81)',
         'sup_ver_twb'       => '2.1.0',
     ),
+	'asset_manager' => array(
+		'resolver_configs' => array(
+			'paths' => array(
+				__DIR__ . '/../public',
+			),
+		),
+	),
 );
